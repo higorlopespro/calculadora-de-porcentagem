@@ -35,7 +35,7 @@ header{
     width: 75px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px){
     .input{
         width: 50px;
     }
