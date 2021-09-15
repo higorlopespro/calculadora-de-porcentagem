@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Calculadora de %</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Calculadora de Porcentagem</h1>
+        <p>sistema em desenvolvimento</p>
+    </header>
+
+    <section id="corpocalculadora">
+        <div>
+            Quanto é <input type="number" id="n1" class="input">%
+             de<input type="number" id="n2" class="input"><br>
+            <div class="mont-result">
+                <input type="button" value="Calcular" onclick="porcentagemcomun()" class="botão">
+                <div class="resultado"><p id="result01">---</p></div>
+            </div>
+        </div>
+        
+
+        <div class="conteiner">
+            O valor <input type="number" id="aun1" class="input"> que  <strong>AUMENTOU</strong> para
+            <input type="number" id="aun2" class="input">
+            <div class="mont-result">
+                <input type="button" value="Calcular" onclick="aumentodeporcentagem()" class="botão">
+                <div class="resultado"><p id="result02">---</p></div>
+            </div>
+            
+        </div>
+        
+
+        <div class="conteiner">
+            O valor <input type="number" id="dimn1" class="input"> que <strong>DIMINUIU</strong> para
+            <input type="number" id="dimn2" class="input">
+            <div class="mont-result">
+                <input type="button" value="Calcular" onclick="diminuiudeporcentagem()" class="botão">
+                <div class="resultado" ><p id="result03">---</p></div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section id="repositorio">
+        <h2>Materiais do repositorio</h2>
+        <div id="big-box">
+            <div class="box">
+                <h3>Tabuada do 0 ao 20</h3>
+                <p>Aqui você vai encontra um pdf com a tabuada o 0 ao 20 para te ajudar a fazer suas contas</p>
+                <a href="tabuada.pdf" class="botão-via-link" target="_blank">Clique Aqui</a>
+            </div>
+            <!--<div class="box">
+                <h3>Tabuada do 0 ao 10</h3>
+                <p>Aqui você vai encontra um pdf com a tabuada o 0 ao 10 para te ajudar a fazer suas contas</p>
+                <a href="#" class="botão-via-link">Clique Aqui</a>
+            </div>
+            <div class="box">
+                <h3>Tabuada do 0 ao 10</h3>
+                <p>Aqui você vai encontra um pdf com a tabuada o 0 ao 10 para te ajudar a fazer suas contas</p>
+                <a href="#" class="botão-via-link">Clique Aqui</a>
+            </div>-->
+        </div>
+    </section>
+
+    <footer>
+         <p class="ue">Não encontro o que queria? Então entra no <a href="https://brainly.com.br/" class="link" target="_blank">brainly</a> meu fi!</p>
+         <br>
+         <p class="copy">🧲Desenvolvido por HigorLopes</p>
+    </footer>
+   
+
+    <script src="script.js"></script>
+
+</body>
+</html>
